@@ -78,7 +78,7 @@ for(int i=0;i<100;i++)
 int a[8]={2,0,2,1,1,2,0,2};
 int main()
 {
-    for(int i=0;i<8;i++)
+    for(int i=0;i<8;i++)//迴圈可以跑4次就好
     {
         if(a[i]==a[7-i])
             printf("%d %d 相同\n", a[i],a[7-i]);
