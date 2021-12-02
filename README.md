@@ -40,7 +40,7 @@ for、while迴圈
 
 # 第11週
 bubble sort:泡沫排序法
-ˋˋˋc
+```c
 for(int k=0;k<100-1;k++)//做很多次
 {
     for(int i=0;i<100-1;i++)//兩兩相比
