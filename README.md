@@ -54,3 +54,18 @@ for(int k=0;k<100-1;k++)//做很多次
     }
 }
 
+# 第12週
+select sort:選擇排序法
+```c
+for(int i=0;i<100;i++)
+    {
+        for(int j=i+1;j<100;j++)
+        {
+            if(a[i]>a[j])
+            {
+                int temp=a[i];
+                a[i]=a[j];
+                a[j]=temp;
+            }
+        }
+    }
