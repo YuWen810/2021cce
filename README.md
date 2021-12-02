@@ -71,3 +71,17 @@ for(int i=0;i<100;i++)
     }
 ```
 ![step02-2](https://user-images.githubusercontent.com/81633513/144385993-a081aec5-4d45-4162-8f33-dba87cc9472d.png)
+
+## 世界回文日
+```c
+#include<stdio.h>
+int a[8]={2,0,2,1,1,2,0,2};
+int main()
+{
+    for(int i=0;i<8;i++)
+    {
+        if(a[i]==a[7-i])
+            printf("%d %d 相同\n", a[i],a[7-i]);
+    }
+}
+```
