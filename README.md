@@ -72,7 +72,7 @@ for(int i=0;i<100;i++)
 ```
 ![step02-2](https://user-images.githubusercontent.com/81633513/144385993-a081aec5-4d45-4162-8f33-dba87cc9472d.png)
 
-## 世界回文日
+## 世界迴文日
 ```c
 #include<stdio.h>
 int a[8]={2,0,2,1,1,2,0,2};
@@ -85,3 +85,4 @@ int main()
     }
 }
 ```
+![step03-1](https://user-images.githubusercontent.com/81633513/144391826-efafccd5-d538-4e12-82ce-5ff475c36d72.png)
