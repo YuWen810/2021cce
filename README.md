@@ -70,3 +70,4 @@ for(int i=0;i<100;i++)
         }
     }
 ```
+![step02-2](https://user-images.githubusercontent.com/81633513/144385993-a081aec5-4d45-4162-8f33-dba87cc9472d.png)
