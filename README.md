@@ -10,9 +10,9 @@ int main()
     printf("Hello World\n");
 }
 ```
-
-
-# 第02週
+# 第03週
+變數宣告
+scanf及printf的意義
 
 # 第04週
 兩數相加
@@ -35,9 +35,22 @@ for、while迴圈
 雙層迴圈
 
 # 第10週
-## 陣列:陣列宣告
-## 質數篩子法
+陣列:陣列宣告
+質數篩子法
 
 # 第11週
-## bubble sort:泡沫排序法
+bubble sort:泡沫排序法
+ˋˋˋc
+for(int k=0;k<100-1;k++)//做很多次
+{
+    for(int i=0;i<100-1;i++)//兩兩相比
+    {
+        if(a[i]>a[i+1])	//若大小順序相反就交換
+    	{
+    		int temp=a[i];
+    		a[i]=a[i+1];
+    		a[i+1]=temp;
+    	}
+    }
+}
 
