@@ -86,3 +86,73 @@ int main()
 }
 ```
 ![step03-1](https://user-images.githubusercontent.com/81633513/144391826-efafccd5-d538-4e12-82ce-5ff475c36d72.png)
+
+
+# 第13週
+
+# 第14週
+2D陣列
+```c
+#include<stdio.h>
+int a[2][3]={{10,20,30},{40,50,60}};
+int main()
+{
+    for(int i=0;i<2;i++)
+    {
+        for(int j=0;j<3;j++)
+            printf("a[%d][%d]=%d ",i,j,a[i][j]);
+        printf("\n");
+    }
+}
+```
+向量乘法
+```c
+#include<stdio.h>
+int a[3]={10,20,30};
+int b[3]={40,50,60};
+int c[3];
+int main()
+{
+    for(int i=0;i<3;i++)
+    {
+        c[i]=a[i]*b[i];
+        printf("%d ",c[i]);
+    }
+    printf("\n");
+    int ans=0;
+    for(int i=0;i<3;i++)
+        ans+=a[i]*b[i];
+    printf("%d",ans);
+}
+```
+矩陣加法
+```c
+#include <stdio.h>
+int a[10][10],b[10][10],c[10][10];
+int main()
+{
+	int n;
+	scanf("%d",&n);
+	for(int i=0;i<n;i++)
+	{
+		for(int j=0;j<n;j++)
+			scanf("%d",&a[i][j]);
+	}
+	for(int i=0;i<n;i++)
+	{
+		for(int j=0;j<n;j++)
+			scanf("%d",&b[i][j]);
+	}
+	for(int i=0;i<n;i++)
+	{
+		for(int j=0;j<n;j++)
+		{
+			c[i][j]=a[i][j]+b[i][j];
+			printf("%3d ",c[i][j]);
+		}
+		printf("\n");
+	}
+}
+```
+矩陣乘法
+
