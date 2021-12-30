@@ -191,3 +191,4 @@ int main()
         printf("字母:%c= 值是%d\n",s[i],s[i]);
 }
 ```
+![step02-1](https://user-images.githubusercontent.com/81633513/147733104-c3c6f6d9-2cbd-4bf8-b775-5fa70e57a176.png)
