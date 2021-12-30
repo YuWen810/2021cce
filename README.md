@@ -178,3 +178,16 @@ int main()
     printf("%d",b);
 }
 ```
+
+# 第16週
+字串的用法
+```c
+#include <stdio.h>
+int a[4];
+char s[4]="ABC";
+int main()
+{
+    for(int i=0;i<4;i++)
+        printf("字母:%c= 值是%d\n",s[i],s[i]);
+}
+```
