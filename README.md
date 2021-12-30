@@ -157,3 +157,23 @@ int main()
 ```
 矩陣乘法
 
+#第15週 
+輾轉相除法
+```c
+#include<stdio.h>
+int main()
+{
+    int a,b,c;
+    scanf("%d %d",&a,&b);
+    c=a%b;
+    while(1)
+    {
+    	if(c==0)
+    		break;
+    	a=b;
+    	b=c;
+    	c=a%b;
+    }
+    printf("%d",b);
+}
+```
